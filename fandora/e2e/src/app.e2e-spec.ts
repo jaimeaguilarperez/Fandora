@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('PROYECT-Fandora app is running!');
+    expect(page.getTitleText()).toEqual('fandora app is running!');
   });
 
   afterEach(async () => {
