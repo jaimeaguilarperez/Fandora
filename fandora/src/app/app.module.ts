@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { GenpostComponent } from './components/genpost/genpost.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { UserComponent } from './components/user/user.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ShopComponent } from './components/shop/shop.component';
     ProfileComponent,
     GenpostComponent,
     ShopComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
