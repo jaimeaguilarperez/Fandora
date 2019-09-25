@@ -1,5 +1,5 @@
 .example-card {
-  max-height: 900px;
+  max-height: 1000px;
 }
 
 .example-header-image {
@@ -8,11 +8,15 @@
 }
 
 .background{
-  background-color:#4C0B5F;
+  background-color: #4C0B5F;
 }
 
 .center{
   display: 'center';
 }
 
-
+.btn{
+  border-radius: 50%;
+  background-color: #4C0B5F;
+  color: white;
+}
