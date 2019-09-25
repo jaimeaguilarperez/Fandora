@@ -1,0 +1,38 @@
+
+.background{
+  background-color: #4C0B5F;
+}
+
+.color{
+  color: white;
+}
+
+.card-img{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border:5px solid #4C0B5F;
+    display: block;
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 24%;
+}
+
+.example-full-width {
+  width: 100%;
+  color: white;
+}
+
+.btn{
+  font-style: italic;
+}
+
+.mat-tab-group {
+  margin-bottom: 55px;
+}
+
+.display{
+  display: block;
+}
+
+
