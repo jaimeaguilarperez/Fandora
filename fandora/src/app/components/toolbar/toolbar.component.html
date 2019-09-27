@@ -1,18 +1,19 @@
 
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-  <span>FAN<s>DORA</s></span>
-      <span class="fill-remaining-space"> </span>
-      <span class="align-center"></span>
-      <span class=  "spacer"></span>
-      <button mat-button>About</button>
-      <button mat-button>Contact</button>
-      <button mat-icon-button [matMenuTriggerFor]="menu">
-      <span class="nav-tool-items">
-          <a mat-button routerLink="login" routerLinkActive="active">Log in</a>
-          <a mat-button mat-raised-button routerLink="register" routerLinkActive="active">Register</a>
-      </span>
-  </button>
+  <a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" >FAN<s>DORA</s></a>
+    <span class="fill-remaining-space"> </span>
+    <span class="align-center"></span>
+    <span class=  "spacer"></span>
+    <button mat-button [routerLink]="['/profile']" routerLinkActive="router-link-active" >Profile</button>
+    <button mat-button [routerLink]="['/shop']" routerLinkActive="router-link-active" >Shop</button>
+    <button mat-icon-button [matMenuTriggerFor]="menu"></button>
+
+  <span class="nav-tool-items">
+      <a mat-button [routerLink]="['/login']" routerLinkActive="router-link-active" >Log In</a>
+      <a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active" >Register</a>
+  </span>
+
   <span class=  "spacer"></span>
     <button mat-menu-item>
       <mat-icon>notifications_off</mat-icon>
