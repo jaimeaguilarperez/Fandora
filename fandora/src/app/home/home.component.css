@@ -1,46 +1,23 @@
-body {
-    background-color: purple;
-    margin: 0;
+.example-card {
+  max-height: 1000px;
 }
 
-.header {
-    padding: 15px;
-    text-align: center;
-    background-color: ('purple');
-    background-size: cover;
-    color: white;
-    font-size: 20px;
+.example-header-image {
+  background-image: url('../../assets/imagenes/img002.jpg');
+  background-size: cover;
 }
 
-.mipollagorda {
-    color: #B40404;
-    font-weight: bold;
+.background{
+  background-color: #4C0B5F;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 25px;
+.center{
+  display: 'center';
 }
 
-.grid-container>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid black;
-    text-align: center;
-    font-size: 25px;
-}
-
-.grid-container>div:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    opacity: 20;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 250px;
+.btn{
+  border-radius: 50%;
+  background-color: #4C0B5F;
+  color: white;
 }
 
