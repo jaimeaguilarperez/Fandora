@@ -1,10 +1,15 @@
 .example-card {
   max-height: 1000px;
+  border-style: solid;
+  border-color: #4C0B5F;
 }
 
 .example-header-image {
   background-image: url('../../assets/imagenes/img002.jpg');
   background-size: cover;
+  border: 4px;
+  border-style: solid;
+  border-color: #4C0B5F;
 }
 
 .background{
@@ -13,11 +18,22 @@
 
 .center{
   display: 'center';
+  border-style: solid;
+  border-color: #4C0B5F;
 }
 
 .btn{
   border-radius: 50%;
   background-color:white;
-  color: white;
+  color:  #4C0B5F;
+  border-style: solid;
+  border-color: #4C0B5F;
+}
+
+.border{
+  border-style: solid;
+  border-color: #4C0B5F;
+  border: 3px;
+  color:  #4C0B5F;
 }
 

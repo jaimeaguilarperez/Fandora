@@ -1,17 +1,17 @@
 
-<mat-toolbar color= ' #4C0B5F'>
+<mat-toolbar class="background">
   <mat-toolbar-row>
-  <a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" >FAN<s>DORA</s></a>
+  <a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" class="border" >FAN<s>DORA</s></a>
     <span class="fill-remaining-space"> </span>
     <span class="align-center"></span>
     <span class=  "spacer"></span>
-    <button mat-button [routerLink]="['/profile']" routerLinkActive="router-link-active" >Profile</button>
-    <button mat-button [routerLink]="['/shop']" routerLinkActive="router-link-active" >Shop</button>
+    <button mat-button [routerLink]="['/profile']" routerLinkActive="router-link-active" class="border" >Profile</button>
+    <button mat-button [routerLink]="['/shop']" routerLinkActive="router-link-active" class="border" >Shop</button>
     <button mat-icon-button [matMenuTriggerFor]="menu"></button>
 
   <span class="nav-tool-items">
-      <a mat-button [routerLink]="['/login']" routerLinkActive="router-link-active" >Log In</a>
-      <a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active" >Register</a>
+      <a mat-button [routerLink]="['/login']" routerLinkActive="router-link-active" class="border" >Log In</a>
+      <a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active" class="border" >Register</a>
   </span>
 
   <span class=  "spacer"></span>
