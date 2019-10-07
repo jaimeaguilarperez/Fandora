@@ -1,52 +1,75 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <app-toolbar></app-toolbar>
 
 <div class='background'>
 <div class = 'col-8 offset-2'>
 <mat-card class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div mat-card-avatar class="example-header-image2"></div>
     <mat-card-title>Videojuegos</mat-card-title>
     <mat-card-subtitle>Una verdad incómoda</mat-card-subtitle>
   </mat-card-header>
 
+  <button onclick="myFunction()" a mat-button mat-raised-button [routerLink]="['/user']" routerLinkActive="router-link-active">
   <img mat-card-image src="../../../assets/imagenes/prueba001.jpg" alt="Meme">
   <mat-card-content>
     <p>
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class='col-4 offset-4'>
-          <button class='ml-5' mat-button class= 'border'>LIKE</button>
-          <button mat-button class= 'border'>SHARE</button>
-          <button class= 'btn'>+</button>
+      <div class='col-4 offset-8'>
+          <button mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+
+            <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+              <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          </a>
+            <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+              <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          </a>
+              <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+            </a>
       </div>
   </mat-card-actions>
+</button>
 </mat-card>
 </div>
 
 <hr>
 
-<div>
 <div class = 'col-8 offset-2'>
 <mat-card class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div mat-card-avatar class="example-header-image2"></div>
     <mat-card-title>Actualidad</mat-card-title>
     <mat-card-subtitle>Nuestro presidente...</mat-card-subtitle>
   </mat-card-header>
 
-  <img mat-card-image src="../../../assets/imagenes/prueba003.jpeg" alt="Meme">
+  <button onclick="myFunction()" a mat-button mat-raised-button [routerLink]="['/user']" routerLinkActive="router-link-active">
+  <img mat-card-image src="../../../assets/imagenes/prueba003.jpeg" alt="Meme" class="rebelde">
   <mat-card-content>
     <p>
     </p>
   </mat-card-content>
+
   <mat-card-actions>
-      <div class='col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
+      <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+
+          <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
   </div>
     </mat-card-actions>
+  </button>
 </mat-card>
 </div>
 
@@ -67,12 +90,21 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class='col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
-    </div>
-  </mat-card-actions>
+      <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+    <button mat-button  id="share-buttons">
+        <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+    </button>
+  </div>
+    </mat-card-actions>
 </mat-card>
 </div>
 
@@ -82,7 +114,7 @@
     <div class = 'col-8 offset-2'>
 <mat-card class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div mat-card-avatar class="example-header-image2"></div>
     <mat-card-title>Actualidad</mat-card-title>
     <mat-card-subtitle>Menuda gentuza</mat-card-subtitle>
   </mat-card-header>
@@ -93,14 +125,24 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class='col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
-    </div>
-  </mat-card-actions>
+      <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+    <button mat-button  id="share-buttons">
+        <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+    </button>
+  </div>
+    </mat-card-actions>
 </mat-card>
 </div>
+
 
 <hr>
 
@@ -119,14 +161,24 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class = 'col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
-    </div>
-  </mat-card-actions>
+      <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+    <button mat-button  id="share-buttons">
+        <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+    </button>
+  </div>
+    </mat-card-actions>
 </mat-card>
 </div>
+
 
 <hr>
 
@@ -144,36 +196,171 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class = 'col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
-    </div>
-  </mat-card-actions>
+      <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+    <button mat-button  id="share-buttons">
+        <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+    </button>
+  </div>
+    </mat-card-actions>
 </mat-card>
 </div>
+
 
 <hr>
 
     <div class = 'col-8 offset-2'>
 <mat-card class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Actualidad</mat-card-title>
-    <mat-card-subtitle>Nuestro portero:</mat-card-subtitle>
+    <div mat-card-avatar class="example-header-image3"></div>
+    <mat-card-title>Cine</mat-card-title>
+    <mat-card-subtitle>¿Habéis visto el nuevo corto de Star Wars?</mat-card-subtitle>
   </mat-card-header>
 
-  <img mat-card-image src="../../../assets/imagenes/prueba009.png" alt="Meme">
+  <img mat-card> <video width="400" controls class="video">
+  <source src="../../../assets/imagenes/starwars.mp4" type="video/mp4">
+  </video>
+
   <mat-card-content>
     <p>
     </p>
   </mat-card-content>
   <mat-card-actions>
-      <div class = 'col-4 offset-4'>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-    <button class= 'btn'>+</button>
-      </div>
-  </mat-card-actions>
+   <div class='col-9 offset-8 '>
+          <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+    <button mat-button  id="share-buttons">
+        <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+  </a>
+    </button>
+  </div>
+    </mat-card-actions>
 </mat-card>
 </div>
+
+<hr>
+
+<div class = 'col-8 offset-2'>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image2"></div>
+      <mat-card-title>Actualidad</mat-card-title>
+      <mat-card-subtitle>Nuestro portero:</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image src="../../../assets/imagenes/prueba009.png" alt="Meme">
+    <mat-card-content>
+      <p>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+     <div class='col-9 offset-8 '>
+            <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+      <button mat-button  id="share-buttons">
+          <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+        </a>
+        <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+      </a>
+      <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+    </a>
+      </button>
+    </div>
+      </mat-card-actions>
+  </mat-card>
+  </div>
+
+  <hr>
+
+
+  <div class = 'col-8 offset-2'>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Actualidad</mat-card-title>
+        <mat-card-subtitle>Nuestro portero:</mat-card-subtitle>
+      </mat-card-header>
+
+      <img mat-card-image src="../../../assets/imagenes/prueba009.png" alt="Meme">
+      <mat-card-content>
+        <p>
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+       <div class='col-9 offset-8 '>
+              <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+        <button mat-button  id="share-buttons">
+            <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+              <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          </a>
+          <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+        </a>
+        <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+          <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+      </a>
+        </button>
+      </div>
+        </mat-card-actions>
+    </mat-card>
+    </div>
+
+    <hr>
+
+    <div class = 'col-8 offset-2'>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Actualidad</mat-card-title>
+          <mat-card-subtitle>Nuestro portero:</mat-card-subtitle>
+        </mat-card-header>
+
+
+
+        <img mat-card-image src="../../../assets/imagenes/prueba009.png" alt="Meme">
+        <mat-card-content>
+          <p>
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+         <div class='col-9 offset-8 '>
+                <button class='ml-5' mat-button class= 'border' onclick="myFunction(this)" class="fa fa-thumbs-up"></button>
+
+
+
+          <button mat-button  id="share-buttons">
+              <a href="https://twitter.com/share?url=https://fandora.com&amp;text=Fandora mola fandora es genial fandora;hashtags=fandora" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+            </a>
+            <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+              <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          </a>
+          <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+        </a>
+          </button>
+        </div>
+          </mat-card-actions>
+      </mat-card>
+      </div>
+
+
+      <hr>
+
+

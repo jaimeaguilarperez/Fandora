@@ -1,17 +1,16 @@
-<app-toolbar></app-toolbar>
 
-<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+<div class="login-wrapper" fxLayoutAlign="center center">
 
     <mat-card class="box">
       <mat-card-header>
-        <mat-card-title>Register</mat-card-title>
+        <mat-card-title class= "title">¡Foraster@! Regístrate aquí para entrar en <img src="../../../assets/imagenes/logo_1.1.png"></mat-card-title>
       </mat-card-header>
 
-      <form class="example-form">
+      <form class="example-form" >
 
         <mat-card-content>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Username">
+            <input matInput placeholder="Usuario">
           </mat-form-field>
 
           <mat-form-field class="example-full-width">
@@ -19,13 +18,17 @@
           </mat-form-field>
 
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Password">
+            <input matInput placeholder="Contraseña" name="pwd" maxlength="12" input type="password">
           </mat-form-field>
 
           <mat-form-field class="example-full-width">
-            <mat-label>Birthdate:</mat-label>
+            <input matInput placeholder="Confirmar contraseña" name="pwd" maxlength="12" input type="password">
+            </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>Fecha de cumpleaños</mat-label>
             <mat-form-field class="example-full-width">
-                <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+                <input matInput [matDatepicker]="picker" placeholder="">
                 <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
                 <mat-datepicker touchUi #picker></mat-datepicker>
               </mat-form-field>
@@ -33,7 +36,8 @@
 
         </mat-card-content>
 
-        <button mat-stroked-button color="accent" class="btn-block" [routerLink]="['/profile']" routerLinkActive="router-link-active" >Register</button>
+        <button mat-stroked-button color="accent" class="btn-block" [routerLink]="['/profile']" routerLinkActive="router-link-active" >Regístrate</button>
+        <p class="coment" class="button" a mat-button mat-raised-button [routerLink]="['/login']" routerLinkActive="router-link-active">¿Ya has hecho el registro?</p>
 
       </form>
     </mat-card>

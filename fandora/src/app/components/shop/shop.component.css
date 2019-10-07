@@ -24,3 +24,54 @@
    }
  }
 .view,body,html{height:100%}.carousel{height:50%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.page-footer{background-color:#929FBA}
+
+.colore{
+  background-color: white;
+  color: #4C0B5F;
+  font-style: bold;
+}
+
+.fando{
+  background-color:#4C0B5F;
+  color: white;
+}
+
+.hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 30;
+}
+
+.dark-grey-text{
+  color:#4C0B5F;
+}
+
+.name{
+  color: #4C0B5F;
+  font-weight: bold;
+  }
+
+.names{
+color: #4C0B5F;
+font-weight: bold;
+font-size: 25px;
+}
+
+.card{
+  height: 525px;
+  width: 330px;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+
+.container{
+  height: auto !important;
+  width: 100% !important;
+}
+
+@supports(object-fit: cover){
+  .box img{
+    object-fit: cover;
+    object-position: center center;
+  }
+}

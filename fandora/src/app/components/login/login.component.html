@@ -1,27 +1,33 @@
-<app-toolbar></app-toolbar>
 
 <div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
-
     <mat-card class="box">
       <mat-card-header>
-        <mat-card-title>Log in</mat-card-title>
+        <mat-card-title class="title">Bienvenid@s a <img src="../../../assets/imagenes/logo_1.1.png"></mat-card-title>
+
       </mat-card-header>
 
-      <form class="example-form">
-        <mat-card-content>
-          <mat-form-field class="example-full-width">
-            <input matInput placeholder="Username">
-          </mat-form-field>
+      <form class="example-form" class="col-16">
 
-          <mat-form-field class="example-full-width">
-            <input matInput placeholder="Password">
-          </mat-form-field>
-        </mat-card-content>
-        <button mat-stroked-button color="accent" class="btn-block">Log in</button>
-        <div class = 'col-14' >
-        <p class="coment" class="button" a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active">Not logged in? Register now here!</p>
+          <mat-card-content>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Usuario">
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Contraseña" name="pwd" maxlength="12" input type="password">
+                </mat-form-field>
+
+              </mat-card-content>
+
+        <button mat-stroked-button color="accent" class="btn-block" a mat-button mat-raised-button [routerLink]="['/profile']" routerLinkActive="router-link-active">Iniciar sesión</button >
+        <div class = 'col-14'  >
+        <p class="coment" class="button" a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active">¡Regístrate aquí foraster@!</p>
+        <p><a href="https://www.gmail.com" target="_blank">
+        <p class="coment" class="button" a href="https://www.amazon.com" target="_blank">¿Has olvidado tu contraseña?</p></a></p>
       </div>
       </form>
     </mat-card>
 
 </div>
+
+

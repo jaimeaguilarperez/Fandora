@@ -13,3 +13,6 @@ export class GenpostComponent implements OnInit {
   }
 
 }
+
+
+

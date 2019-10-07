@@ -3,8 +3,6 @@
   background-color: white;
 }
 
-
-
 .card-img{
     width:150px;
     height:150px;
@@ -22,25 +20,52 @@
 
 .btn{
   font-style: italic;
+  margin-right: 1%;
 }
 
 .mat-tab-group {
   margin-bottom: 55px;
 }
 
-.display{
-  display: block;
-}
-
 .button{
-  margin-left: 90% ;
+  margin-left: 90%;
+  margin-bottom: 90%;
   position: fixed;
   border: 3px solid #4C0B5F;
-  border-radius: 50%;
+  border-radius: 60%;
+  height: 8%;
 }
 
 .example-card{
   border-style: solid;
   border-color: #4C0B5F;
 }
+
+.card-img2{
+  width:75px;
+  height:75px;
+  border-radius:50px;
+  border:5px solid #4C0B5F;
+  display: block;
+  margin-left: 8%;
+  margin-right: auto;
+  margin-top: 24%;
+}
+
+.fa{
+  margin-left: 90%;
+  color:#4C0B5F;
+}
+
+.card-title{
+  color:#4C0B5F;
+  font-style: bold;
+}
+
+.color{
+  color:#4C0B5F;
+  font-style: bold;
+}
+
+
 

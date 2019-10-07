@@ -1,3 +1,8 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class='background'>
 <app-toolbar></app-toolbar>
 
@@ -10,17 +15,20 @@
           <div class="col-md-4">
             <img src="../../../assets/imagenes/perfil1.jpeg" class="card-img" alt="...">
           </div>
+
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">John Doe</h5>
-              <p class="card-text">I am Lorem ipsum dolor sit amet consectetur, adipiscing elit maecenas eleifend duis tellus, tincidunt cras parturient nisi. </p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title" >John Doe</h5>
+              <p class="card-text" > Tras llevar un tiempo desaparecido, he decidido volver a lo que se me da mejor: echar unas risas. Me gusta analizar la actualidad sin piedad. </p>
+              <p class="card-text"><small class="text-muted">Última actualización hace 1 día</small></p>
+              <i style="font-size:24px" class="fa">&#xf040;</i>
             </div>
           </div>
+
         </div>
       </div>
 
-    <h6 class='color'>Level</h6>
+    <h6 class='color'>Nivel</h6>
     <div class="col-md-4">
     <div class="progress md-progress" style="height: 20px ; width: 325%" >
         <div class="progress-bar" role="progressbar" style="width: 25%; height: 20px" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2</div>
@@ -30,7 +38,7 @@
 <p>
 
 </p>
-    <h6 class='color'>Health</h6>
+    <h6 class='color'>Salud</h6>
     <div class="col-md-4">
     <div class="progress md-progress" style="height: 20px ; width: 325%">
         <div class="progress-bar" role="progressbar" style="width: 90%; height: 20px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -39,41 +47,44 @@
 </div>
 <div class="col-5">
     <mat-form-field class="example-full-width">
-      <h6 class='color'>Name</h6>
+      <h6 class='color'>Nombre</h6>
       <input matInput placeholder= ""   value="John Doe"  class='btn'>
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
-        <h6 class='color'>Location</h6>
-      <input matInput placeholder ="" value="Write your location here!" class='btn'>
+        <h6 class='color'>Email</h6>
+      <input matInput placeholder ="" value="john.doe@gmail.com" class='btn'>
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
-        <h6 class='color'>Email</h6>
-        <input matInput placeholder= ""   value="Write your email here!"  class='btn'>
+        <h6 class='color'>Fecha de cumpleaños</h6>
+        <input matInput placeholder= ""   value="27/12/1989"  class='btn'>
       </mat-form-field>
 
       <mat-form-field class="example-full-width">
-          <h6 class='color'>Password</h6>
-        <input matInput placeholder ="" value="Write your password here!" class='btn'>
+          <h6 class='color'>Latiguillo</h6>
+        <input matInput placeholder ="" value="Tienes alguno?" class='btn'>
       </mat-form-field>
+
 </div>
 </div>
 </div>
 
 <button onclick="myFunction()" class="button" a mat-button mat-raised-button [routerLink]="['/genpost']" routerLinkActive="router-link-active" >+</button>
 
-    <div class = 'col-5 offset-2'>
-      <h4 class="color">Your posts</h4>
-      <p></p>
+    <div class = 'col-7 offset-2'>
+      <h4 class="color">Mis publicaciones</h4>
+
+<hr>
+
     <mat-card class="example-card">
       <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
+          <img mat-card-avatar src="/../../assets/imagenes/perfil1.jpeg" alt="Meme">
         <mat-card-title>Actualidad</mat-card-title>
         <mat-card-subtitle>Nuestro presidente...</mat-card-subtitle>
       </mat-card-header>
 
-      <img mat-card-image src="../../../assets/imagenes/prueba003.jpeg" alt="Meme">
+      <img mat-card-image src="/../../assets/imagenes/prueba003.jpeg" alt="Meme">
       <mat-card-content>
         <p>
         </p>
@@ -88,17 +99,17 @@
     </mat-card>
     </div>
 
-    <div class = 'col-5 offset-2'>
+    <div class = 'col-7 offset-2'>
         <h4 class="color"></h4>
         <p></p>
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
+            <img mat-card-avatar src="/../../assets/imagenes/perfil1.jpeg" alt="Meme">
           <mat-card-title>Actualidad</mat-card-title>
-          <mat-card-subtitle>Nuestro presidente...</mat-card-subtitle>
+          <mat-card-subtitle>Menuda gentuza</mat-card-subtitle>
         </mat-card-header>
 
-        <img mat-card-image src="../../../assets/imagenes/prueba003.jpeg" alt="Meme">
+        <img mat-card-image src="../../../assets/imagenes/prueba005.jpg" alt="Meme">
         <mat-card-content>
           <p>
           </p>
@@ -113,17 +124,17 @@
       </mat-card>
       </div>
 
-      <div class = 'col-5 offset-2'>
+      <div class = 'col-7 offset-2'>
           <h4 class="color"></h4>
           <p></p>
         <mat-card class="example-card">
           <mat-card-header>
-            <div mat-card-avatar class="example-header-image"></div>
+            <img mat-card-avatar src="/../../assets/imagenes/perfil1.jpeg" alt="Meme">
             <mat-card-title>Actualidad</mat-card-title>
-            <mat-card-subtitle>Nuestro presidente...</mat-card-subtitle>
+            <mat-card-subtitle>Nuestro portero...</mat-card-subtitle>
           </mat-card-header>
 
-          <img mat-card-image src="../../../assets/imagenes/prueba003.jpeg" alt="Meme">
+          <img mat-card-image src="../../../assets/imagenes/prueba009.png" alt="Meme">
           <mat-card-content>
             <p>
             </p>
@@ -141,3 +152,10 @@
 
 </div>
 
+<p>
+
+</p>
+
+<p>
+.
+  </p>

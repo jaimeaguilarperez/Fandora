@@ -37,3 +37,37 @@
   color:  #4C0B5F;
 }
 
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+.video{
+  margin-right: 50%;
+  margin-left: 25%;
+}
+
+.example-header-image2 {
+  background-image: url('../../assets/imagenes/perfil1.jpeg');
+  background-size: cover;
+  border: 4px;
+  border-style: solid;
+  border-color: #4C0B5F;
+}
+
+.example-header-image3 {
+  background-image: url('../../assets/imagenes/perfil3.jpg');
+  background-size: cover;
+  border: 4px;
+  border-style: solid;
+  border-color: #4C0B5F;
+}
+
+.rebelde{
+  width: 170%;
+}

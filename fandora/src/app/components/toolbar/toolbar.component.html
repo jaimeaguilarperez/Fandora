@@ -1,24 +1,14 @@
 
 <mat-toolbar class="background">
   <mat-toolbar-row>
-  <a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" class="border" >FAN<s>DORA</s></a>
+  <button mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" ><img src="../../../assets/imagenes/logo_2.1.png"></button>
     <span class="fill-remaining-space"> </span>
     <span class="align-center"></span>
     <span class=  "spacer"></span>
-    <button mat-button [routerLink]="['/profile']" routerLinkActive="router-link-active" class="border" >Profile</button>
-    <button mat-button [routerLink]="['/shop']" routerLinkActive="router-link-active" class="border" >Shop</button>
-    <button mat-icon-button [matMenuTriggerFor]="menu"></button>
-
-  <span class="nav-tool-items">
-      <a mat-button [routerLink]="['/login']" routerLinkActive="router-link-active" class="border" >Log In</a>
-      <a mat-button mat-raised-button [routerLink]="['/register']" routerLinkActive="router-link-active" class="border" >Register</a>
-  </span>
-
-  <span class=  "spacer"></span>
-    <button mat-menu-item>
-      <mat-icon>notifications_off</mat-icon>
-      <span>Disable alerts</span>
-    </button>
+    <a button mat-button [routerLink]="['/profile']" routerLinkActive="router-link-active" class="letter" >Perfil</a>
+    <button mat-button [routerLink]="['/shop']" routerLinkActive="router-link-active" class="letter"  >La caja de <img src="../../../assets/imagenes/logo_2.1.png"></button>
+    <button mat-icon-button [matMenuTriggerFor]=""></button>
+    <a button mat-button [routerLink]="['/login']" routerLinkActive="router-link-active" class="letter" class="sal" >Cerrar sesión</a>
 
    </mat-toolbar-row>
    </mat-toolbar>

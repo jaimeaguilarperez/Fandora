@@ -20,7 +20,6 @@ import { ShopComponent } from './components/shop/shop.component';
 import { UserComponent } from './components/user/user.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +32,7 @@ import { UserComponent } from './components/user/user.component';
     ProfileComponent,
     GenpostComponent,
     ShopComponent,
-    UserComponent
+    UserComponent,
   ],
   imports: [
     BrowserModule,

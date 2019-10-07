@@ -14,16 +14,11 @@
   width: 100%;
 }
 
-.btn{
-  font-style: italic;
-}
-
 .img-fluid{
   width: 100%;
 }
 
 .size{
-  font-size: 75px;
   font-style: italic;
 }
 
@@ -35,4 +30,16 @@
   align-content: center;
 }
 
+.btn{
+  font-style: italic;
+}
 
+.publicar{
+  color:white;
+  background-color: #4C0B5F;
+}
+
+.h3{
+  color: #4C0B5F;
+  font-style: bold;
+}

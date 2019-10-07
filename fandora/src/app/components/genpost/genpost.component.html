@@ -4,33 +4,48 @@
 
 <div class='center' class='col-4 offset-4'>
   <mat-form-field class="example-full-width">
-    <h3>Section</h3>
-    <input matInput placeholder= ""   value="Write post section"  class='btn'>
+    <h3 class="h3">Sección</h3>
+    <input matInput placeholder= ""   value="Escribe aquí la sección"  class='btn'>
   </mat-form-field>
 
   <mat-form-field class="example-full-width">
-      <h3>Title</h3>
-    <input matInput placeholder ="" value="Write post title" class='btn'>
+      <h3 class="h3">Título</h3>
+    <input matInput placeholder ="" value="Escribe aquí el título" class='btn'>
   </mat-form-field>
 
 <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
   <mat-button-toggle>M</mat-button-toggle>
-  <mat-button-toggle>T</mat-button-toggle>
+  <mat-button-toggle>V</mat-button-toggle>
   <mat-button-toggle>A</mat-button-toggle>
 </mat-button-toggle-group>
+<p>
 
+  </p>
+  <p>
+
+    </p><p>
+
+      </p>
+      <p>
+
+        </p>
 <div>
-  <mat-button-toggle-group class='btn' class='size'>
-    <mat-button-toggle>Click to post!</mat-button-toggle>
+  <mat-button-toggle-group>
+    <mat-button-toggle>
+        <input type="file" id="myFile" class="publicar">
+      </mat-button-toggle>
   </mat-button-toggle-group>
   </div>
+<p>
 
+</p>
+<p>
 
-
-<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-  <mat-button-toggle>Publish!</mat-button-toggle>
+  </p>
+<mat-button-toggle-group>
+  <mat-button-toggle  a mat-button mat-raised-button [routerLink]="['/home']" routerLinkActive="router-link-active" class="publicar">Publicar</mat-button-toggle>
 </mat-button-toggle-group>
-</div>
 
+</div>
 </body>
 

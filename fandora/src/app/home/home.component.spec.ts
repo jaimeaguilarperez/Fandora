@@ -24,3 +24,6 @@ describe('HomeComponent', () => {
   });
 });
 
+// tslint:disable-next-line: only-arrow-functions
+
+
