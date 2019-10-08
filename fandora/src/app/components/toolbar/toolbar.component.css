@@ -1,8 +1,11 @@
+
+
 .background{
   background-color:#4C0B5F;
   color: white;
   height: 10%;
   font-size: 500px;
+  position: unset;
 }
 
 .letter{

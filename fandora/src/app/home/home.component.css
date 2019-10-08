@@ -1,7 +1,8 @@
 .example-card {
-  max-height: 1000px;
+  max-height: 10000px;
   border-style: solid;
   border-color: #4C0B5F;
+  background: #eee;
 }
 
 .example-header-image {
@@ -13,7 +14,7 @@
 }
 
 .background{
-  background-color: white;
+  background-color: #eee;;
 }
 
 .center{
@@ -50,7 +51,7 @@
 .video{
   margin-right: 50%;
   margin-left: 25%;
-}
+ }
 
 .example-header-image2 {
   background-image: url('../../assets/imagenes/perfil1.jpeg');
@@ -68,6 +69,11 @@
   border-color: #4C0B5F;
 }
 
-.rebelde{
-  width: 170%;
+.bttn{
+  border: 4px;
+  border-style: solid;
+  border-color: #4C0B5F;
+  color:white;
+  background-color: #4C0B5F;
+  border-radius: 50%;
 }

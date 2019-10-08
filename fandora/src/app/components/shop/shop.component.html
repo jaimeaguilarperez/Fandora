@@ -1,13 +1,7 @@
 <app-toolbar></app-toolbar>
 
-
-<main>
 <div class="container" class="col-10 offset-1">
-
-
 <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">
-
-
   <button mat-button [matMenuTriggerFor]="menu" class="names">¡Consulta nuestros artículos fandorianos!</button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item>Camisetas Fandora</button>
@@ -15,78 +9,43 @@
     <button mat-menu-item>Posters Fandora</button>
     <button mat-menu-item>Cajas Misteriosas desde Fandora</button>
   </mat-menu>
-
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse" id="basicExampleNav">
-
-
-
-    <form class="form-inline">
-      <div class="md-form my-0">
-
-      </div>
-    </form>
-  </div>
-
-
 </nav>
-
-
 
 <section class="text-center mb-4">
 
 
   <div class="row wow fadeIn">
-
-
     <div class="col-lg-3 col-md-8 mb-6">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src= "../../../assets/imagenes/poster01.jpg" class="card-img-top" alt="" height=350px>
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
-        </a></p>
+        </a>
         </div>
-
-        <div class="card-body text-center" a mat-button mat-raised-button [routerLink]="['/genpost']" routerLinkActive="router-link-active"  onclick="addClothe(120,'Denim shirt')" class="hover">
-
+        <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Poster</h5>
+            <h5 class="namet">Póster</h5>
           </a>
-          <h5>
-            <strong>
+          <h5 class="name">
               <a href="" class="dark-grey-text">Regalo para la vista
                 <span class="badge badge-pill danger-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>120$</strong>
+            <strong>5€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/sudadera1.jpg" class="card-img-top" alt="">
           <a>
@@ -94,73 +53,47 @@
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Camiseta</h5>
+            <h5 class="namet">Sudadera</h5>
           </a>
           <h5 class="name">
-            <strong>
-              <a href="" class="dark-grey-text">Orgullo sin prejuicios</a>
-            </strong>
+              <a href="" class="dark-grey-text">Echando chispas</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>139$</strong>
+            <strong>29€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/cajamisteriosa1.jpg" class="card-img-top" alt="" >
+          <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="" >
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Caja misteriosa</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text" class="name">Misterios en Fandora
-                <span class="badge badge-pill primary-color">bestseller fandora</span>
+              <a href="" class="dark-grey-text" class="name">¿Qué misterios habrá?
+                <span class="badge badge-pill primary-color"></span>
               </a>
-            </strong>
-          </h5>
-
+            </h5>
           <h4 class="font-weight-bold blue-text">
-            <strong>99$</strong>
+            <strong>19€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/camiseta1.jpg" class="card-img-top" alt="">
           <a>
@@ -168,42 +101,24 @@
           </a>
         </a>
         </div>
-
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Sudadera</h5>
+            <h5 class="namet">Camiseta</h5>
           </a>
           <h5>
-            <strong>
               <a href="" class="dark-grey-text">Verdades</a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>219$</strong>
+            <strong>15€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   </div>
 
   <div class="row wow fadeIn">
-
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/camiseta3.jpg" class="card-img-top" alt="">
           <a>
@@ -211,32 +126,26 @@
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Shirt</h5>
+            <h5 class="namet">Camiseta</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Camiseta
-                <span class="badge badge-pill danger-color">The Dude</span>
+              <a href="" class="dark-grey-text">Storm Pooper
+                <span class="badge badge-pill danger-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>120$</strong>
+            <strong>20€</strong>
           </h4>
-
         </div>
       </div>
-
     </div>
+
     <div class="col-lg-3 col-md-6 mb-4">
       <div class="card">
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/sudadera2.jpg" class="card-img-top" alt="">
+          <img src="../../../assets/imagenes/sudadera2.jpg" class="card-img-top" alt="" height=350px>
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
@@ -244,23 +153,22 @@
         </div>
         <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Sudadera</h5>
+            <h5 class="namet">Sudadera</h5>
           </a>
-          <h5>
-            <strong>
-              <a href="" class="dark-grey-text">El tío Jack</a>
-            </strong>
+          <h5 class="name">
+              <a href="" class="dark-grey-text">Soy Batman</a>
           </h5>
           <h4 class="font-weight-bold blue-text">
-            <strong>139$</strong>
+            <strong>29€</strong>
           </h4>
         </div>
       </div>
     </div>
+
     <div class="col-lg-3 col-md-6 mb-4">
       <div class="card">
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/poster03.jpg" class="card-img-top" alt="" height=350px;>
+          <img src="../../../assets/imagenes/poster03.jpg" class="card-img-top" alt="" height=325px;>
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
@@ -268,17 +176,15 @@
         </div>
         <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Poster</h5>
+            <h5 class="namet">Poster</h5>
           </a>
           <h5>
-            <strong>
               <a href="" class="dark-grey-text">Un lugar para perderse
                 <span class="badge badge-pill primary-color"></span>
               </a>
-            </strong>
           </h5>
           <h4 class="font-weight-bold blue-text">
-            <strong>99$</strong>
+            <strong>5€</strong>
           </h4>
         </div>
       </div>
@@ -286,8 +192,6 @@
 
     <div class="col-lg-3 col-md-6 mb-4">
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="">
           <a>
@@ -295,32 +199,24 @@
           </a>
           </a>
         </div>
-
         <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Caja misteriosa</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5>
-            <strong>
               <a href="" class="dark-grey-text">¿Qué misterios habrá?</a>
-            </strong>
           </h5>
           <h4 class="font-weight-bold blue-text">
-            <strong>219$</strong>
+            <strong>5€</strong>
           </h4>
         </div>
       </div>
-
     </div>
   </div>
+
   <div class="row wow fadeIn">
-
-
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src= "../../../assets/imagenes/sudadera4.jpg" class= "sizeImage" class="card-img-top" alt="">
           <a>
@@ -328,38 +224,24 @@
           </a>
         </a></p>
         </div>
-
-        <div class="card-body text-center" a mat-button mat-raised-button [routerLink]="['/genpost']" routerLinkActive="router-link-active"  onclick="addClothe(120,'Denim shirt')" class="hover">
-
+        <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Poster</h5>
+            <h5 class="namet">Sudadera</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Regalo para la vista
+              <a href="" class="dark-grey-text">Selfie en Bespin
                 <span class="badge badge-pill danger-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>120$</strong>
+            <strong>59€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/poster04.jpg" class="card-img-top" alt="" height=350px>
           <a>
@@ -367,73 +249,47 @@
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Camiseta</h5>
+            <h5 class="namet">Poster</h5>
           </a>
           <h5 class="name">
-            <strong>
-              <a href="" class="dark-grey-text">Orgullo sin prejuicios</a>
-            </strong>
+              <a href="" class="dark-grey-text">Un recuerdo de Fandora</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>139$</strong>
+            <strong>5€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/cajamisteriosa5.jpg" class="card-img-top" alt="">
+          <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="">
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
           </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Caja misteriosa</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5>
-            <strong>
               <a href="" class="dark-grey-text" class="name">Misterios en Fandora
-                <span class="badge badge-pill primary-color">bestseller fandora</span>
+                <span class="badge badge-pill primary-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>99$</strong>
+            <strong>39€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/camiseta5.jpg" class="card-img-top" alt="">
           <a>
@@ -441,41 +297,24 @@
           </a>
           </a>
         </div>
-
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Sudadera</h5>
+            <h5 class="namet">Camiseta</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Verdades</a>
-            </strong>
+              <a href="" class="dark-grey-text">The Dude</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>219$</strong>
+            <strong>20€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   </div>
+
   <div class="row wow fadeIn">
-
-
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src= "../../../assets/imagenes/poster05.jpg" class= "sizeImage" class="card-img-top" alt="" height=350px>
           <a>
@@ -483,74 +322,47 @@
           </a>
         </a></p>
         </div>
-
-        <div class="card-body text-center" a mat-button mat-raised-button [routerLink]="['/genpost']" routerLinkActive="router-link-active"  onclick="addClothe(120,'Denim shirt')" class="hover">
-
+        <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Poster</h5>
+            <h5 class="namet">Poster</h5>
           </a>
           <h5>
-            <strong>
               <a href="" class="dark-grey-text">Regalo para la vista
                 <span class="badge badge-pill danger-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>120$</strong>
+            <strong>5€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/cajamisteriosa2.jpg" class="card-img-top" alt="">
+          <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="">
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Camiseta</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5 class="name">
-            <strong>
-              <a href="" class="dark-grey-text">Orgullo sin prejuicios</a>
-            </strong>
+              <a href="" class="dark-grey-text">¿Qué misterios habrá?</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
             <strong>139$</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/poster02.jpg" class="card-img-top" alt="" height=350px>
           <a>
@@ -558,37 +370,24 @@
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Caja misteriosa</h5>
+            <h5 class="namet">Poster</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text" class="name">Misterios en Fandora
-                <span class="badge badge-pill primary-color">bestseller fandora</span>
+              <a href="" class="dark-grey-text" class="name">Amanecer en Fandora
+                <span class="badge badge-pill primary-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>99$</strong>
+            <strong>5€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/sudadera3.jpg" class="card-img-top" alt="">
           <a>
@@ -596,41 +395,24 @@
           </a>
         </a>
         </div>
-
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Sudadera</h5>
+            <h5 class="namet">Sudadera</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Verdades</a>
-            </strong>
+              <a href="" class="dark-grey-text">Burton, Tim Burton</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>219$</strong>
+            <strong>29€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   </div>
+
   <div class="row wow fadeIn">
-
-
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src= "../../../assets/imagenes/camiseta4.jpg" class= "sizeImage" class="card-img-top" alt="">
           <a>
@@ -638,112 +420,72 @@
           </a>
         </a></p>
         </div>
-
-        <div class="card-body text-center" a mat-button mat-raised-button [routerLink]="['/genpost']" routerLinkActive="router-link-active"  onclick="addClothe(120,'Denim shirt')" class="hover">
-
+        <div class="card-body text-center">
           <a href="" class="grey-text">
-            <h5 class="name">Poster</h5>
+            <h5 class="namet">Camiseta</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Regalo para la vista
+              <a href="" class="dark-grey-text">Di su nombre
                 <span class="badge badge-pill danger-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>120$</strong>
+            <strong>20€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/cajamisteriosa4.jpg" class="card-img-top" alt="">
+          <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="">
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Camiseta</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5 class="name">
-            <strong>
-              <a href="" class="dark-grey-text">Orgullo sin prejuicios</a>
-            </strong>
+              <a href="" class="dark-grey-text">¿Qué misterios habrá?</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>139$</strong>
+            <strong>99€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
-
       <div class="card">
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
-          <img src="../../../assets/imagenes/tiendaropa2.jpg" class="card-img-top" alt="">
+          <img src="../../../assets/imagenes/cajamisteriosa3.jpg" class="card-img-top" alt="">
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
         </a>
         </div>
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Caja misteriosa</h5>
+            <h5 class="namet">Caja misteriosa</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text" class="name">Misterios en Fandora
-                <span class="badge badge-pill primary-color">bestseller fandora</span>
+              <a href="" class="dark-grey-text" class="name">Qué misterios habrá?
+                <span class="badge badge-pill primary-color"></span>
               </a>
-            </strong>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>99$</strong>
+            <strong>49€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
 
     <div class="col-lg-3 col-md-6 mb-4">
-
       <div class="card">
-
-
         <div class="view overlay"><p><a href="https://www.amazon.com" target="_blank">
           <img src="../../../assets/imagenes/tiendaropa3.jpg" class="card-img-top" alt="">
           <a>
@@ -751,36 +493,22 @@
           </a>
         </a>
         </div>
-
-
         <div class="card-body text-center">
-
           <a href="" class="grey-text">
-            <h5 class="name">Sudadera</h5>
+            <h5 class="namet">Sudadera</h5>
           </a>
           <h5>
-            <strong>
-              <a href="" class="dark-grey-text">Verdades</a>
-            </strong>
+              <a href="" class="dark-grey-text">Echando chispas</a>
           </h5>
-
           <h4 class="font-weight-bold blue-text">
-            <strong>219$</strong>
+            <strong>19€</strong>
           </h4>
-
         </div>
-
-
       </div>
-
-
     </div>
-
-
   </div>
 </section>
-<nav class="d-flex justify-content-center wow fadeIn">
-  <ul class="pagination pg-blue">
+
 
 
 
